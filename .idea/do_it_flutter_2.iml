@@ -1,58 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../DoitFlutter2.0/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../DoitFlutter2.0/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../DoitFlutter2.0/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../DoitFlutter2.0/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../DoitFlutter2.0/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/../../DoitFlutter2.0/libs" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/../../DoitFlutter2.0/proguard_logs" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example3/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example3/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example1/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example1/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter14/modu_tour/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter14/modu_tour/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter7/largefile_download/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter7/largefile_download/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter5/listview_example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter5/listview_example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/FinalProject/modu_tour/build" />
-      <excludeFolder url="file://$MODULE_DIR$/FinalProject/modu_tour/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter3/flutter_app/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter3/flutter_app/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter5/tabbar_example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter5/tabbar_example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example2/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example2/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example1/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example1/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example1/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example1/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter10/sql_example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter10/sql_example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/ios_native_example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter12/ios_native_example/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example2/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example2/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example3/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example3/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example2/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example2/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter4/image_font_add_app/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter4/image_font_add_app/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example1/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example1/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter1/flutter_app/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter1/flutter_app/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter11/animation_example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter11/animation_example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter7/http_example/build" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter7/http_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example1/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example2/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter13/firebase_example2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter8/todo_list/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter8/todo_list/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter8/todo_list/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter14/modu_tour/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter14/modu_tour/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter14/modu_tour/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter5/tabbar_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter5/tabbar_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter5/tabbar_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter7/http_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter7/http_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter7/http_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/FinalProject/modu_tour/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/FinalProject/modu_tour/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/FinalProject/modu_tour/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter4/image_font_add_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter4/image_font_add_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter4/image_font_add_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter6/listview_example/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter6/listview_example/build" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter6/listview_example/.pub" />
-      <excludeFolder url="file://$MODULE_DIR$/Chapter4/widget_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter5/listview_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter5/listview_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter5/listview_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/ios_native_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/ios_native_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/ios_native_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/fileio_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/fileio_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/fileio_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter3/flutter_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter3/flutter_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter3/flutter_app/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/Chapter4/widget_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter4/widget_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter4/widget_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter1/flutter_app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter1/flutter_app/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter1/flutter_app/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter11/animation_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter11/animation_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter11/animation_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/intro_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/intro_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/intro_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter7/largefile_download/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter7/largefile_download/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter7/largefile_download/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter8/subpage_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter12/native_example2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter10/sql_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter10/sql_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter10/sql_example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Chapter9/internal_example/.dart_tool" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 32 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
   </component>
 </module>

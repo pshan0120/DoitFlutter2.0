@@ -9,15 +9,15 @@ void main() {
 }
 
 class Car {
-  int maxSpeed;
-  num price;
-  String name;
+  late int maxSpeed;
+  late num price;
+  late String name;
   Car(int maxSpeed , num price , String name){
     this.maxSpeed = maxSpeed;
     this.price = price;
     this.name = name;
   }
-  int saleCar(){
+  num saleCar(){
     price = price * 0.9 ;
     return price;
   }
