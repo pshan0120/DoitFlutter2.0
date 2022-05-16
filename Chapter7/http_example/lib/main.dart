@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 
-
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -72,14 +71,18 @@ class _HttpApp extends State<HttpApp> {
                       child: Container(
                         child: Row(
                           children: <Widget>[
-                            if(data?[index]['thumbnail'] != '')
-                            Image.network(
-                              data![index]['thumbnail'],
-                              height: 100,
-                              width: 100,
-                              fit: BoxFit.contain,
-                            ) else Container(  height: 100,
-                              width: 100,),
+                            if (data?[index]['thumbnail'] != '')
+                              Image.network(
+                                data![index]['thumbnail'],
+                                height: 100,
+                                width: 100,
+                                fit: BoxFit.contain,
+                              )
+                            else
+                              Container(
+                                height: 100,
+                                width: 100,
+                              ),
                             Column(
                               children: <Widget>[
                                 Container(
@@ -125,7 +128,7 @@ class _HttpApp extends State<HttpApp> {
         'https://dapi.kakao.com/v3/search/book?target=title&page=$page&query=${_editingController!.value.text}';
 
     var response = await http.get(Uri.parse(url),
-        headers: {"Authorization": "KakaoAK aa51bf3d875ea350a1d8bd05de36d8b8"});
+        headers: {"Authorization": "KakaoAK 9c9b9eb1f8d537f08001f49ab93df8a7"});
 
     print(response.body); // 검색 결과 로그창으로 확인
 

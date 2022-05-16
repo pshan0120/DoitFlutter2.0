@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:flutter/foundation.dart' show kIsWeb;
 
 class LargeFileMain extends StatefulWidget {
   @override
@@ -26,7 +27,13 @@ void initState() {
 
     Dio dio = Dio();
     try {
-      var dir = await getApplicationDocumentsDirectory();
+      Directory dir;
+      if (kIsWeb) {
+        dir = await getTemporaryDirectory();
+      } else {
+        dir = await getApplicationDocumentsDirectory();
+      }
+
       await dio.download(_editingController!.value.text, '${dir.path}/myimage.jpg',
           onReceiveProgress: (rec, total) {
         print('Rec: $rec , Total: $total');
