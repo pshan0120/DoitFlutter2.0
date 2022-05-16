@@ -128,7 +128,7 @@ class _HttpApp extends State<HttpApp> {
         'https://dapi.kakao.com/v3/search/book?target=title&page=$page&query=${_editingController!.value.text}';
 
     var response = await http.get(Uri.parse(url),
-        headers: {"Authorization": "KakaoAK 9c9b9eb1f8d537f08001f49ab93df8a7"});
+        headers: {"Authorization": "KakaoAK {REST_API_KEY}"});
 
     print(response.body); // 검색 결과 로그창으로 확인
 
