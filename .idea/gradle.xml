@@ -5,6 +5,16 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter12/native_example1/android" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Chapter12/native_example1/android" />
+            <option value="$PROJECT_DIR$/Chapter12/native_example1/android/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/Chapter9/fileio_example/android" />
         <option name="modules">
           <set>

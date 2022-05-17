@@ -4,6 +4,10 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.14/android" />
     <file type="web" url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_android-2.0.12/android" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/android" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/build/app/generated/ap_generated_sources/debug/out" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/build/app/generated/res/resValues/debug" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/build/app/generated/source/buildConfig/debug" />
     <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/android" />
     <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/app/generated/res/resValues/debug" />
     <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/app/generated/source/buildConfig/debug" />
