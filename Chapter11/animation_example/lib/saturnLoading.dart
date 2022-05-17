@@ -69,7 +69,7 @@ class _SaturnLoading extends State<SaturnLoading>
   void initState() {
     super.initState();
     _animationController =
-        AnimationController(vsync: this, duration: Duration(seconds: 3));
+        AnimationController(vsync: this, duration: Duration(seconds: 1));
     _animation =
         Tween<double>(begin: 0, end: pi * 2).animate(_animationController!);
     _animationController!.repeat();

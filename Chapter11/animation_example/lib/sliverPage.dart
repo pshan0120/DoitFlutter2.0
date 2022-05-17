@@ -1,5 +1,6 @@
-import 'package:flutter/material.dart';
 import 'dart:math' as math;
+
+import 'package:flutter/material.dart';
 
 class SliverPage extends StatefulWidget {
   @override
@@ -71,12 +72,18 @@ class _SliverPage extends State<SliverPage> {
             pinned: true,
           ),
           SliverGrid(
-              delegate: SliverChildListDelegate([
+              delegate: SliverChildBuilderDelegate((context, index) {
+                return Container(
+                  child: customCard('list count : $index'),
+                );
+              }, childCount: 10),
+
+              /*delegate: SliverChildListDelegate([
                 customCard('1'),
                 customCard('2'),
                 customCard('3'),
                 customCard('4'),
-              ]),
+              ]),*/
               gridDelegate:
                   SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2)),
         ],
