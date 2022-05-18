@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_android-2.0.14/android" />
-    <file type="web" url="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_android-2.0.12/android" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/android" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/build/app/generated/ap_generated_sources/debug/out" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/build/app/generated/res/resValues/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter12/native_example1/build/app/generated/source/buildConfig/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/android" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/app/generated/res/resValues/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/app/generated/source/buildConfig/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/path_provider_android/generated/ap_generated_sources/debug/out" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/path_provider_android/generated/res/resValues/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/path_provider_android/generated/source/buildConfig/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/shared_preferences_android/generated/ap_generated_sources/debug/out" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/shared_preferences_android/generated/res/resValues/debug" />
-    <file type="web" url="file://$PROJECT_DIR$/Chapter9/fileio_example/build/shared_preferences_android/generated/source/buildConfig/debug" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter1/flutter_app/android" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter1/flutter_app/build/app/generated/res/resValues/debug" />
+    <file type="web" url="file://$PROJECT_DIR$/Chapter1/flutter_app/build/app/generated/source/buildConfig/debug" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android API 31 Platform" project-jdk-type="Android SDK" />
-  <component name="ProjectType">
-    <option name="id" value="jpab" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="Android API 31 Platform" project-jdk-type="Android SDK" />
 </project>
